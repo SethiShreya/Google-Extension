@@ -48,3 +48,8 @@ saveBtn.addEventListener("click", function() {
     localStorage.setItem("arr", JSON.stringify(arr))
     render(arr)
 })
+
+inputEl.addEventListener("keyup", function(event) {
+    if (event.key === 'Enter')
+        saveBtn.click()
+})
