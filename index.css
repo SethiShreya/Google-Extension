@@ -1,13 +1,14 @@
 body {
     text-align: center;
-    background-image: url(image.png);
-    background-color: white;
+    /* background-image: url(image.jpg); */
+    background-color: rgb(243, 192, 53);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
     background-position-y: -50px;
     /* background-position-x: 400px;*/
     font-size: large;
+    overflow: hidden;
 }
 
 button {
@@ -49,9 +50,10 @@ h2 {
 }
 
 ul {
-    list-style: none;
+    /* list-style: ; */
     margin-top: 20px;
-    padding-left: 0;
+    padding-left: 20px;
+    text-align: left;
 }
 
 li {
